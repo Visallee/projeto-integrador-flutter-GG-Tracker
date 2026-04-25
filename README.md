@@ -6,7 +6,8 @@ Este projeto foi desenvolvido como requisito de avaliação (Projeto Integrador 
 
 ## 👨‍💻 Desenvolvedores (Programadores)
 
-- **Victor Silva**   - **Arthur Ribeiro**
+- **Victor Silva do Valle**
+- **Arthur Ribeiro Lima**
 
 ## 🎯 Intenções e Proposta do Projeto
 
