@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:gg_tracker_workspace/pages/home_page.dart';
-import 'package:gg_tracker_workspace/theme/app_theme.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'features/jogos/presentation/pages/home_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    const ProviderScope(
+      child: MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -14,7 +18,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'GG Tracker',
       debugShowCheckedModeBanner: false,
-      theme: appTheme,
+      theme: ThemeData(
+        brightness: Brightness.dark,
+        useMaterial3: true,
+      ),
       home: const HomePage(),
     );
   }

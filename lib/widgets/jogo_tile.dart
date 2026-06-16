@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gg_tracker_workspace/models/jogo.dart';
+import 'package:gg_tracker_workspace/core/database/app_database.dart';
 import 'package:gg_tracker_workspace/theme/app_colors.dart';
 import 'package:gg_tracker_workspace/widgets/delete_icon.dart';
 import 'package:gg_tracker_workspace/widgets/texto_padrao.dart';
